@@ -17,10 +17,6 @@
 };
 
 / {
-    chosen {
-        zmk,matrix_transform = &urobs_transform;
-    };
-
     behaviors {
         rt: retro_momentary_tap {
             compatible = "zmk,behavior-hold-tap";
